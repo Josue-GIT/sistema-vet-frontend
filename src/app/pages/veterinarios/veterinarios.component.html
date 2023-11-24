@@ -1,0 +1,12 @@
+<div class="container d-flex flex-row ">
+    <div *ngFor="let medico of medicos" class="card" style="width: 18rem; margin-top: 20px; margin-right: 20px;">
+        <div class="card-header">
+            <img class="card-img-top" src="https://img.freepik.com/fotos-premium/tiro-medio-veterinario-sonriente-posando-uniforme_23-2148302259.jpg" alt="Card image cap" style="width: 255px; height: 382px;">
+        </div>
+        <div class="card-body">
+          <p class="card-text">Nombre: {{ medico.nombre }}</p>
+          <p class="card-text">Horario: {{ medico.horario }}</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+</div>
